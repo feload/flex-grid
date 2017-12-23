@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+
+  /* Define direction of elements: column or row
+  flex-direction: row; */
+
+  /* Define flow for inner items */
+  /* flex-wrap: wrap; */
+
+  /* Short hand for flex-direction and flex-wrap*/
+  flex-flow: column nowrap;
+
+  /* Justifies content on X axis.*/
+  /* justify-content: flex-start; */
+
+  /* Justifies content on Y axis. */
+  /* align-content: flex-start; */
+
+  /* Aligns items on Y axis */
+  /* align-items: flex-start; */
+
+  border: 1px solid white;
+
+}
+
+.container div {
+  margin: 0px;
+  flex-basis: 200px;
+
+  /*
+  flex-basis
+  container has a) space left or b) is overfull
+  look at a) flex-grow and b) flex-shrink
+  calculate portions each item will grow / shrink
+  add that to the base size.
+
+  flex-basis: auto;
+
+  flex-grow: 1;*/
+
+  /* Aligns item itself :)
+  align-self: stretch;
+  */
+
+}
+/*
+.container div:nth-child(2) {
+  flex-grow: 3;
+}*/
+
+/*
+Order allows to rearrange items.
+
+.container div:nth-child(1) {
+  order: 2;
+}
+.container div:nth-child(2) {
+  order: 1;
+}
+.container div:nth-child(3) {
+  order: 3;
+}
+.container div:nth-child(4) {
+  order: 5;
+}
+.container div:nth-child(5) {
+  order: 4;
+}
+.container div:nth-child(6) {
+  order: 6;
+}
+*/

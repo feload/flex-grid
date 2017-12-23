@@ -1,0 +1,30 @@
+.grid {
+  display: flex;
+}
+
+.grid > div {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 5px;
+  padding: 5px;
+}
+
+.grid > .half {
+  flex-basis: 50%;
+}
+
+.grid > .third {
+  flex-basis: 33.33333%;
+}
+
+.grid > .fourth {
+  flex-basis: 25%;
+}
+
+.grid > .fifth {
+  flex-basis: 20%;
+}
+
+.grid > .sixth {
+  flex-basis: 20%;
+}
